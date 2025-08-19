@@ -278,4 +278,88 @@ void reactDB::load(LoadFrom loader){
   react_DB[_distressed_][_neutral_][_backmassage_] = _curious_;
   react_DB[_distressed_][_negative_][_backmassage_] = _calm_;
 
+  ////////////////////// Positive Talk (Audio) //////////////////////
+react_DB[_achiever_][_positive_][_positive_talk_] = _superhappy_;
+react_DB[_achiever_][_neutral_][_positive_talk_] = _happy_;
+react_DB[_achiever_][_negative_][_positive_talk_] = _curious_;
+react_DB[_balanced_][_positive_][_positive_talk_] = _happy_;
+react_DB[_balanced_][_neutral_][_positive_talk_] = _excited_;
+react_DB[_balanced_][_negative_][_positive_talk_] = _calm_;
+react_DB[_creative_][_positive_][_positive_talk_] = _excited_;
+react_DB[_creative_][_neutral_][_positive_talk_] = _surprised_;
+react_DB[_creative_][_negative_][_positive_talk_] = _curious_;
+react_DB[_distressed_][_positive_][_positive_talk_] = _playful_;
+react_DB[_distressed_][_neutral_][_positive_talk_] = _happy_;
+react_DB[_distressed_][_negative_][_positive_talk_] = _shy_;
+
+////////////////////// Negative Talk (Audio) //////////////////////
+react_DB[_achiever_][_positive_][_negative_talk_] = _annoyed_;
+react_DB[_achiever_][_neutral_][_negative_talk_] = _frustrated_;
+react_DB[_achiever_][_negative_][_negative_talk_] = _anger_;
+react_DB[_balanced_][_positive_][_negative_talk_] = _confused_;
+react_DB[_balanced_][_neutral_][_negative_talk_] = _sad_;
+react_DB[_balanced_][_negative_][_negative_talk_] = _annoyed_;
+react_DB[_creative_][_positive_][_negative_talk_] = _surprised_;
+react_DB[_creative_][_neutral_][_negative_talk_] = _confused_;
+react_DB[_creative_][_negative_][_negative_talk_] = _frustrated_;
+react_DB[_distressed_][_positive_][_negative_talk_] = _scared_;
+react_DB[_distressed_][_neutral_][_negative_talk_] = _sad_;
+react_DB[_distressed_][_negative_][_negative_talk_] = _supersad_;
+
+////////////////////// Neutral Talk (Audio) //////////////////////
+react_DB[_achiever_][_positive_][_neutral_talk_] = _curious_;
+react_DB[_achiever_][_neutral_][_neutral_talk_] = _calm_;
+react_DB[_achiever_][_negative_][_neutral_talk_] = _calm_;
+react_DB[_balanced_][_positive_][_neutral_talk_] = _calm_;
+react_DB[_balanced_][_neutral_][_neutral_talk_] = _calm_;
+react_DB[_balanced_][_negative_][_neutral_talk_] = _calm_;
+react_DB[_creative_][_positive_][_neutral_talk_] = _curious_;
+react_DB[_creative_][_neutral_][_neutral_talk_] = _calm_;
+react_DB[_creative_][_negative_][_neutral_talk_] = _calm_;
+react_DB[_distressed_][_positive_][_neutral_talk_] = _shy_;
+react_DB[_distressed_][_neutral_][_neutral_talk_] = _calm_;
+react_DB[_distressed_][_negative_][_neutral_talk_] = _calm_;
+
+////////////////////// Aggressive Action (Video) //////////////////////
+react_DB[_achiever_][_positive_][_aggressive_action_] = _anger_;
+react_DB[_achiever_][_neutral_][_aggressive_action_] = _superanger_;
+react_DB[_achiever_][_negative_][_aggressive_action_] = _superanger_;
+react_DB[_balanced_][_positive_][_aggressive_action_] = _scared_;
+react_DB[_balanced_][_neutral_][_aggressive_action_] = _annoyed_;
+react_DB[_balanced_][_negative_][_aggressive_action_] = _anger_;
+react_DB[_creative_][_positive_][_aggressive_action_] = _surprised_;
+react_DB[_creative_][_neutral_][_aggressive_action_] = _scared_;
+react_DB[_creative_][_negative_][_aggressive_action_] = _anger_;
+react_DB[_distressed_][_positive_][_aggressive_action_] = _scared_;
+react_DB[_distressed_][_neutral_][_aggressive_action_] = _supersad_;
+react_DB[_distressed_][_negative_][_aggressive_action_] = _scared_;
+
+////////////////////// Friendly Action (Video) //////////////////////
+react_DB[_achiever_][_positive_][_friendly_action_] = _happy_;
+react_DB[_achiever_][_neutral_][_friendly_action_] = _excited_;
+react_DB[_achiever_][_negative_][_friendly_action_] = _curious_;
+react_DB[_balanced_][_positive_][_friendly_action_] = _affectionate_;
+react_DB[_balanced_][_neutral_][_friendly_action_] = _happy_;
+react_DB[_balanced_][_negative_][_friendly_action_] = _calm_;
+react_DB[_creative_][_positive_][_friendly_action_] = _playful_;
+react_DB[_creative_][_neutral_][_friendly_action_] = _excited_;
+react_DB[_creative_][_negative_][_friendly_action_] = _surprised_;
+react_DB[_distressed_][_positive_][_friendly_action_] = _superhappy_;
+react_DB[_distressed_][_neutral_][_friendly_action_] = _affectionate_;
+react_DB[_distressed_][_negative_][_friendly_action_] = _happy_;
+
+////////////////////// Neutral Action (Video) //////////////////////
+react_DB[_achiever_][_positive_][_neutral_action_] = _calm_;
+react_DB[_achiever_][_neutral_][_neutral_action_] = _calm_;
+react_DB[_achiever_][_negative_][_neutral_action_] = _calm_;
+react_DB[_balanced_][_positive_][_neutral_action_] = _calm_;
+react_DB[_balanced_][_neutral_][_neutral_action_] = _calm_;
+react_DB[_balanced_][_negative_][_neutral_action_] = _calm_;
+react_DB[_creative_][_positive_][_neutral_action_] = _curious_;
+react_DB[_creative_][_neutral_][_neutral_action_] = _calm_;
+react_DB[_creative_][_negative_][_neutral_action_] = _calm_;
+react_DB[_distressed_][_positive_][_neutral_action_] = _shy_;
+react_DB[_distressed_][_neutral_][_neutral_action_] = _calm_;
+react_DB[_distressed_][_negative_][_neutral_action_] = _calm_;
+
 }

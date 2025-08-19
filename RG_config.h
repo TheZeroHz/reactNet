@@ -8,7 +8,7 @@
 //$$ Make Sure All these enum declaration have that certain amount of datapoint $$//
 #define num_of_personality 4
 #define num_of_mood 3
-#define num_of_action 14
+#define num_of_action 20
 #define num_of_reaction 17
 
 #define default_FrameSize 20
@@ -87,6 +87,13 @@ enum Action { _hithead_,
               _headmassage_,
               _bellymassage_,
               _backmassage_,
+              _positive_talk_,
+              _negative_talk_,
+              _neutral_talk_,
+              _aggressive_action_,
+              _friendly_action_,
+              _neutral_action_
+              
 };
 enum Reaction {
   _superanger_,

@@ -21,6 +21,7 @@
 #include "rewardDB.h"
 #include "reactDB.h"
 #include "CLI.h"
+#include "EmotionRating.h"
 class ReactGenerator {
 private:
     rewardDB rwdDB;
@@ -31,6 +32,7 @@ private:
     int _WindowSize_=default_WindowSize;
     int _FrameSize_=default_FrameSize; 
 public:
+     float positivity_P, negativity_P;
     CLI CMD;
     Vector<double> reward_logs;
     CharacterState character;

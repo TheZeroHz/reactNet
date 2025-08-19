@@ -165,6 +165,8 @@ void ReactGenerator::showMoodDetails(){
     Serial.print("positivity:");Serial.print(positivity);Serial.print("%");
     Serial.print(" ");
     Serial.print("negativity:");Serial.print(negativity);Serial.print("%");
+    positivity_P=positivity;
+    negativity_P=negativity;
 
 }
 Mood ReactGenerator::predictMood() {

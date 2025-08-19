@@ -52,6 +52,17 @@ void loop() {
 
     Serial.println("Reaction :"+reaction+"\nMood :"+mood+"\nPersonality :"+personality);
     Serial.println();
+     Serial.println();
+
+     EmotionRating er(5);
+     er.compute(engn.positivity_P, engn.negativity_P);
+
+    Serial.println("Selected class: "+(String) (er.getSelectedClass()));
+    Serial.println("Polarity: "+(String)(er.getPolarity()));
+
+    auto probs = er.getSoftmax();
+    Serial.println("Softmax probabilities: ");
+    for (auto p : probs) Serial.print((String)(p)+" ");
   }
   // put your main code here, to run repeatedly:
 

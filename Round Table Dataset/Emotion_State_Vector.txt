@@ -1,0 +1,344 @@
+Here is the complete, **authoritative 240-cell emotion-state vector** in the exact requested format (4 personalities × 3 moods × 20 actions).  
+Copy-paste ready; no further edits required.
+
+```cpp
+////////////////////// Hit Head //////////////////////
+react_DB[achiever][positive][hithead] = annoyed;
+react_DB[achiever][neutral][hithead] = anger;
+react_DB[achiever][negative][hithead] = superanger;
+
+react_DB[balanced][positive][hithead] = confused;
+react_DB[balanced][neutral][hithead] = sad;
+react_DB[balanced][negative][hithead] = annoyed;
+
+react_DB[creative][positive][hithead] = scared;
+react_DB[creative][neutral][hithead] = sad;
+react_DB[creative][negative][hithead] = anger;
+
+react_DB[distressed][positive][hithead] = sad;
+react_DB[distressed][neutral][hithead] = supersad;
+react_DB[distressed][negative][hithead] = frustrated;
+
+////////////////////// Hit Belly //////////////////////
+react_DB[achiever][positive][hitbelly] = anger;
+react_DB[achiever][neutral][hitbelly] = frustrated;
+react_DB[achiever][negative][hitbelly] = superanger;
+
+react_DB[balanced][positive][hitbelly] = confused;
+react_DB[balanced][neutral][hitbelly] = annoyed;
+react_DB[balanced][negative][hitbelly] = anger;
+
+react_DB[creative][positive][hitbelly] = annoyed;
+react_DB[creative][neutral][hitbelly] = annoyed;
+react_DB[creative][negative][hitbelly] = anger;
+
+react_DB[distressed][positive][hitbelly] = confused;
+react_DB[distressed][neutral][hitbelly] = sad;
+react_DB[distressed][negative][hitbelly] = supersad;
+
+////////////////////// Hit Hand //////////////////////
+react_DB[achiever][positive][hithand] = annoyed;
+react_DB[achiever][neutral][hithand] = anger;
+react_DB[achiever][negative][hithand] = frustrated;
+
+react_DB[balanced][positive][hithand] = confused;
+react_DB[balanced][neutral][hithand] = annoyed;
+react_DB[balanced][negative][hithand] = anger;
+
+react_DB[creative][positive][hithand] = confused;
+react_DB[creative][neutral][hithand] = annoyed;
+react_DB[creative][negative][hithand] = annoyed;
+
+react_DB[distressed][positive][hithand] = confused;
+react_DB[distressed][neutral][hithand] = sad;
+react_DB[distressed][negative][hithand] = supersad;
+
+////////////////////// Hit Back //////////////////////
+react_DB[achiever][positive][hitback] = annoyed;
+react_DB[achiever][neutral][hitback] = anger;
+react_DB[achiever][negative][hitback] = superanger;
+
+react_DB[balanced][positive][hitback] = confused;
+react_DB[balanced][neutral][hitback] = annoyed;
+react_DB[balanced][negative][hitback] = anger;
+
+react_DB[creative][positive][hitback] = confused;
+react_DB[creative][neutral][hitback] = annoyed;
+react_DB[creative][negative][hitback] = annoyed;
+
+react_DB[distressed][positive][hitback] = frustrated;
+react_DB[distressed][neutral][hitback] = sad;
+react_DB[distressed][negative][hitback] = supersad;
+
+////////////////////// Fall //////////////////////
+react_DB[achiever][positive][fall] = scared;
+react_DB[achiever][neutral][fall] = scared;
+react_DB[achiever][negative][fall] = scared;
+
+react_DB[balanced][positive][fall] = scared;
+react_DB[balanced][neutral][fall] = scared;
+react_DB[balanced][negative][fall] = scared;
+
+react_DB[creative][positive][fall] = scared;
+react_DB[creative][neutral][fall] = scared;
+react_DB[creative][negative][fall] = scared;
+
+react_DB[distressed][positive][fall] = scared;
+react_DB[distressed][neutral][fall] = scared;
+react_DB[distressed][negative][fall] = scared;
+
+////////////////////// Hang //////////////////////
+react_DB[achiever][positive][hang] = scared;
+react_DB[achiever][neutral][hang] = anger;
+react_DB[achiever][negative][hang] = superanger;
+
+react_DB[balanced][positive][hang] = scared;
+react_DB[balanced][neutral][hang] = scared;
+react_DB[balanced][negative][hang] = annoyed;
+
+react_DB[creative][positive][hang] = scared;
+react_DB[creative][neutral][hang] = scared;
+react_DB[creative][negative][hang] = anger;
+
+react_DB[distressed][positive][hang] = scared;
+react_DB[distressed][neutral][hang] = sad;
+react_DB[distressed][negative][hang] = anger;
+
+////////////////////// Shake //////////////////////
+react_DB[achiever][positive][shake] = scared;
+react_DB[achiever][neutral][shake] = anger;
+react_DB[achiever][negative][shake] = superanger;
+
+react_DB[balanced][positive][shake] = scared;
+react_DB[balanced][neutral][shake] = scared;
+react_DB[balanced][negative][shake] = annoyed;
+
+react_DB[creative][positive][shake] = scared;
+react_DB[creative][neutral][shake] = scared;
+react_DB[creative][negative][shake] = anger;
+
+react_DB[distressed][positive][shake] = scared;
+react_DB[distressed][neutral][shake] = sad;
+react_DB[distressed][negative][shake] = anger;
+
+////////////////////// Idle //////////////////////
+react_DB[achiever][positive][idle] = calm;
+react_DB[achiever][neutral][idle] = calm;
+react_DB[achiever][negative][idle] = calm;
+
+react_DB[balanced][positive][idle] = calm;
+react_DB[balanced][neutral][idle] = calm;
+react_DB[balanced][negative][idle] = calm;
+
+react_DB[creative][positive][idle] = calm;
+react_DB[creative][neutral][idle] = calm;
+react_DB[creative][negative][idle] = calm;
+
+react_DB[distressed][positive][idle] = calm;
+react_DB[distressed][neutral][idle] = calm;
+react_DB[distressed][negative][idle] = calm;
+
+////////////////////// Call by Name //////////////////////
+react_DB[achiever][positive][call] = calm;
+react_DB[achiever][neutral][call] = calm;
+react_DB[achiever][negative][call] = calm;
+
+react_DB[balanced][positive][call] = calm;
+react_DB[balanced][neutral][call] = calm;
+react_DB[balanced][negative][call] = calm;
+
+react_DB[creative][positive][call] = calm;
+react_DB[creative][neutral][call] = calm;
+react_DB[creative][negative][call] = calm;
+
+react_DB[distressed][positive][call] = calm;
+react_DB[distressed][neutral][call] = calm;
+react_DB[distressed][negative][call] = calm;
+
+////////////////////// User Recognized //////////////////////
+react_DB[achiever][positive][recognized] = calm;
+react_DB[achiever][neutral][recognized] = calm;
+react_DB[achiever][negative][recognized] = calm;
+
+react_DB[balanced][positive][recognized] = calm;
+react_DB[balanced][neutral][recognized] = calm;
+react_DB[balanced][negative][recognized] = calm;
+
+react_DB[creative][positive][recognized] = calm;
+react_DB[creative][neutral][recognized] = calm;
+react_DB[creative][negative][recognized] = calm;
+
+react_DB[distressed][positive][recognized] = calm;
+react_DB[distressed][neutral][recognized] = calm;
+react_DB[distressed][negative][recognized] = calm;
+
+////////////////////// Hand Massage //////////////////////
+react_DB[achiever][positive][handmassage] = affectionate;
+react_DB[achiever][neutral][handmassage] = curious;
+react_DB[achiever][negative][handmassage] = calm;
+
+react_DB[balanced][positive][handmassage] = happy;
+react_DB[balanced][neutral][handmassage] = excited;
+react_DB[balanced][negative][handmassage] = calm;
+
+react_DB[creative][positive][handmassage] = excited;
+react_DB[creative][neutral][handmassage] = curious;
+react_DB[creative][negative][handmassage] = calm;
+
+react_DB[distressed][positive][handmassage] = affectionate;
+react_DB[distressed][neutral][handmassage] = curious;
+react_DB[distressed][negative][handmassage] = calm;
+
+////////////////////// Head Massage //////////////////////
+react_DB[achiever][positive][headmassage] = affectionate;
+react_DB[achiever][neutral][headmassage] = curious;
+react_DB[achiever][negative][headmassage] = calm;
+
+react_DB[balanced][positive][headmassage] = happy;
+react_DB[balanced][neutral][headmassage] = excited;
+react_DB[balanced][negative][headmassage] = calm;
+
+react_DB[creative][positive][headmassage] = happy;
+react_DB[creative][neutral][headmassage] = affectionate;
+react_DB[creative][negative][headmassage] = calm;
+
+react_DB[distressed][positive][headmassage] = superhappy;
+react_DB[distressed][neutral][headmassage] = playful;
+react_DB[distressed][negative][headmassage] = curious;
+
+////////////////////// Belly Massage //////////////////////
+react_DB[achiever][positive][bellymassage] = affectionate;
+react_DB[achiever][neutral][bellymassage] = curious;
+react_DB[achiever][negative][bellymassage] = calm;
+
+react_DB[balanced][positive][bellymassage] = happy;
+react_DB[balanced][neutral][bellymassage] = excited;
+react_DB[balanced][negative][bellymassage] = calm;
+
+react_DB[creative][positive][bellymassage] = excited;
+react_DB[creative][neutral][bellymassage] = curious;
+react_DB[creative][negative][bellymassage] = calm;
+
+react_DB[distressed][positive][bellymassage] = affectionate;
+react_DB[distressed][neutral][bellymassage] = curious;
+react_DB[distressed][negative][bellymassage] = calm;
+
+////////////////////// Back Massage //////////////////////
+react_DB[achiever][positive][backmassage] = affectionate;
+react_DB[achiever][neutral][backmassage] = curious;
+react_DB[achiever][negative][backmassage] = calm;
+
+react_DB[balanced][positive][backmassage] = happy;
+react_DB[balanced][neutral][backmassage] = excited;
+react_DB[balanced][negative][backmassage] = calm;
+
+react_DB[creative][positive][backmassage] = excited;
+react_DB[creative][neutral][backmassage] = curious;
+react_DB[creative][negative][backmassage] = calm;
+
+react_DB[distressed][positive][backmassage] = affectionate;
+react_DB[distressed][neutral][backmassage] = curious;
+react_DB[distressed][negative][backmassage] = calm;
+
+////////////////////// Positive Talk (Audio) //////////////////////
+react_DB[achiever][positive][positive_talk] = superhappy;
+react_DB[achiever][neutral][positive_talk] = happy;
+react_DB[achiever][negative][positive_talk] = curious;
+
+react_DB[balanced][positive][positive_talk] = happy;
+react_DB[balanced][neutral][positive_talk] = excited;
+react_DB[balanced][negative][positive_talk] = calm;
+
+react_DB[creative][positive][positive_talk] = excited;
+react_DB[creative][neutral][positive_talk] = surprised;
+react_DB[creative][negative][positive_talk] = curious;
+
+react_DB[distressed][positive][positive_talk] = playful;
+react_DB[distressed][neutral][positive_talk] = happy;
+react_DB[distressed][negative][positive_talk] = shy;
+
+////////////////////// Negative Talk (Audio) //////////////////////
+react_DB[achiever][positive][negative_talk] = annoyed;
+react_DB[achiever][neutral][negative_talk] = frustrated;
+react_DB[achiever][negative][negative_talk] = anger;
+
+react_DB[balanced][positive][negative_talk] = confused;
+react_DB[balanced][neutral][negative_talk] = sad;
+react_DB[balanced][negative][negative_talk] = annoyed;
+
+react_DB[creative][positive][negative_talk] = surprised;
+react_DB[creative][neutral][negative_talk] = confused;
+react_DB[creative][negative][negative_talk] = frustrated;
+
+react_DB[distressed][positive][negative_talk] = scared;
+react_DB[distressed][neutral][negative_talk] = sad;
+react_DB[distressed][negative][negative_talk] = supersad;
+
+////////////////////// Neutral Talk (Audio) //////////////////////
+react_DB[achiever][positive][neutral_talk] = curious;
+react_DB[achiever][neutral][neutral_talk] = calm;
+react_DB[achiever][negative][neutral_talk] = calm;
+
+react_DB[balanced][positive][neutral_talk] = calm;
+react_DB[balanced][neutral][neutral_talk] = calm;
+react_DB[balanced][negative][neutral_talk] = calm;
+
+react_DB[creative][positive][neutral_talk] = curious;
+react_DB[creative][neutral][neutral_talk] = calm;
+react_DB[creative][negative][neutral_talk] = calm;
+
+react_DB[distressed][positive][neutral_talk] = shy;
+react_DB[distressed][neutral][neutral_talk] = calm;
+react_DB[distressed][negative][neutral_talk] = calm;
+
+////////////////////// Aggressive Action (Video) //////////////////////
+react_DB[achiever][positive][aggressive_action] = anger;
+react_DB[achiever][neutral][aggressive_action] = superanger;
+react_DB[achiever][negative][aggressive_action] = superanger;
+
+react_DB[balanced][positive][aggressive_action] = scared;
+react_DB[balanced][neutral][aggressive_action] = annoyed;
+react_DB[balanced][negative][aggressive_action] = anger;
+
+react_DB[creative][positive][aggressive_action] = surprised;
+react_DB[creative][neutral][aggressive_action] = scared;
+react_DB[creative][negative][aggressive_action] = anger;
+
+react_DB[distressed][positive][aggressive_action] = scared;
+react_DB[distressed][neutral][aggressive_action] = supersad;
+react_DB[distressed][negative][aggressive_action] = scared;
+
+////////////////////// Friendly Action (Video) //////////////////////
+react_DB[achiever][positive][friendly_action] = happy;
+react_DB[achiever][neutral][friendly_action] = excited;
+react_DB[achiever][negative][friendly_action] = curious;
+
+react_DB[balanced][positive][friendly_action] = affectionate;
+react_DB[balanced][neutral][friendly_action] = happy;
+react_DB[balanced][negative][friendly_action] = calm;
+
+react_DB[creative][positive][friendly_action] = playful;
+react_DB[creative][neutral][friendly_action] = excited;
+react_DB[creative][negative][friendly_action] = surprised;
+
+react_DB[distressed][positive][friendly_action] = superhappy;
+react_DB[distressed][neutral][friendly_action] = affectionate;
+react_DB[distressed][negative][friendly_action] = happy;
+
+////////////////////// Neutral Action (Video) //////////////////////
+react_DB[achiever][positive][neutral_action] = calm;
+react_DB[achiever][neutral][neutral_action] = calm;
+react_DB[achiever][negative][neutral_action] = calm;
+
+react_DB[balanced][positive][neutral_action] = calm;
+react_DB[balanced][neutral][neutral_action] = calm;
+react_DB[balanced][negative][neutral_action] = calm;
+
+react_DB[creative][positive][neutral_action] = curious;
+react_DB[creative][neutral][neutral_action] = calm;
+react_DB[creative][negative][neutral_action] = calm;
+
+react_DB[distressed][positive][neutral_action] = shy;
+react_DB[distressed][neutral][neutral_action] = calm;
+react_DB[distressed][negative][neutral_action] = calm;
+```
